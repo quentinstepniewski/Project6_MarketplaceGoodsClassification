@@ -18,8 +18,8 @@ Implementation of a classification algorithm to assign goods with a category bas
   * Creation of a CNN from scratch 
   * Unsupervised classification attempt (with observing the classification on 2D with TSNE)
  * Merge both NLP and ImageClassification 
-  * Feature extraction of the best models of each part (Doc2Vec and VGG16)
-  * Attempt to create emsemble Stacking model 
+   * Feature extraction of the best models of each part (Doc2Vec and VGG16)
+   * Attempt to create emsemble Stacking model 
 
 
 ## Assessed Skills:
