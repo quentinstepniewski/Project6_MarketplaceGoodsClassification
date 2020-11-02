@@ -8,16 +8,16 @@
 Implementation of a classification algorithm to assign goods with a category based on their description and picture
 
 * NLP Part:
-  * Apply NLP methods to preprocess string data : tokenisation, stopwords,lemmatisation/stemming, Bag of Words/TF-IDF
+  * Apply NLP methods to preprocess string data: tokenisation, stopwords, lemmatisation/stemming, Bag of Words/TF-IDF
   * Perform Word Embedding (Doc2Vec, encoding with BERT model)
   * Perform supervised and unsupervised (LDA, NMF, Kmeans) classification
-* Image Classification part:
+* Image classification part:
   * Image preprocessing (grayscale, convolutions: median/gaussian blur, histograms equalizer, resizing,...)
-  * Feature extraction via ORB + creation of VisualBagOfWord
-  * Transfer Learning/ Feature Extraction via VGG16 (ImageNet) CNN model
+  * Feature extraction via ORB + creation of VisualBagOfWords
+  * Transfer Learning / Feature Extraction via VGG16 (ImageNet) CNN model
   * Creation of a CNN from scratch 
   * Unsupervised classification attempt (with observing the classification on 2D with TSNE)
- * Merge both NLP and ImageClassification 
+ * Merge both NLP and Image Classification 
    * Feature extraction of the best models of each part (Doc2Vec and VGG16)
    * Attempt to create emsemble Stacking model 
 
